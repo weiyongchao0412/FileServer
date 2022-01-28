@@ -1,0 +1,12 @@
+[Unit]
+Description=File Server
+
+[Service]
+Type=simple
+ExecStart=/opt/fileserver/fileserverstart.sh
+#Restart=on-failure
+#ExecStop=/bin/kill -9 $MAINPID
+#ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
