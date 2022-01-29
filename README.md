@@ -1,7 +1,7 @@
 # FileServer
 A simple file server for viewing file's information in a directory.
 
-![FileServer Preview Image](/fileserver-preview.png)
+![fileserver-preview](https://user-images.githubusercontent.com/96863949/151645205-37d2cf30-8b6f-4ad3-88f0-a3521e4aca8e.png)
 
 # Usage
 
@@ -34,6 +34,7 @@ sudo systemctl stop fileserver
 ```
 sudo systemctl start fileserver
 ```
+
 # Notes
 
 Only tested on CentOS 7.
