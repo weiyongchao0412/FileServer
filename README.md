@@ -1,6 +1,8 @@
 # FileServer
 A simple file server for viewing file's information in a directory.
 
+![FileServer Preview Image](/fileserver-preview.png)
+
 # Usage
 
 ### Step 1:
@@ -18,6 +20,9 @@ Execute the script file setup.sh using `root` priority.
 sudo ./setup.sh
 ```
 ### Step 3:
+Place your files into the configured `directory` folder in `config.ini`.
+
+### Step 4:
 Open url ("http://`binding-ip-address`:`port`") in your browser client.
 
 # Tips
